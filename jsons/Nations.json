@@ -1,39 +1,36 @@
 [
-    {
-		{
-	"name": "Doriath",
-	"leaderName": "Thingol",
-	"adjective": ["elven"],
-	"startBias": ["Forest"],
-	"preferredVictoryType": "Scientific",
+	{
+		"name": "Doriath",
+		"leaderName": "Thingol",
+		"adjective": ["elven"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Hail thee, King Thingol, mightiest of the rulers of Beleriand. Where the ancient trees whisper tales of yore, lies the realm of Doriath, shrouded in the mists of enchantment.",
+		"startIntroPart2": "Here, the Elves dwell in harmony with nature, their wisdom deep as the roots of the mighty oaks that stand sentinel over their lands.",
+		
+		"declaringWar": "With a heavy heart, we must draw our swords against the encroaching darkness, for the peace of our realm is threatened by thy shadow.",
+		"attacked": "Thou shall regret to have chosen to challenge the power of Doriath",
+		"defeated": "Alas, we have suffered a grievous blow, yet our spirit remains unbroken, for the light of Elbereth shall guide us still.",
+		"introduction": "Hail, stranger! Thou art welcomed to Doriath, a land of beauty and peril, where the stars shine bright and the shadows linger long.",
+		
+		"neutralHello": "Well met, traveler of distant lands.",
+		"neutralLetsHearIt": ["What tidings dost thou bring?", "Speak, for I am eager to listen.", "Let us share words beneath the boughs."],
+		"neutralNo": ["Nay, I cannot abide such folly.", "That is not the way of our kin.", "I must decline thy request."],
+		"neutralYes": ["Aye, I shall lend mine ear.", "Indeed, let us converse further.", "Thy words are welcome here."],
 	
-	"startIntroPart1": "Hail thee, King Thingol, mightiest of the rulers of Beleriand. Where the ancient trees whisper tales of yore, lies the realm of Doriath, shrouded in the mists of enchantment.",
-	"startIntroPart2": "Here, the Elves dwell in harmony with nature, their wisdom deep as the roots of the mighty oaks that stand sentinel over their lands.",
+		"hateHello": "Thou art not welcome in these sacred woods.",
+		"hateLetsHearIt": ["What dost thou seek in our realm?", "Speak quickly, for I tire of thy presence.", "Thy intentions are suspect."],
+		"hateNo": ["Nay, I shall not entertain such notions.", "Thou art a stranger here, and thy words fall on deaf ears.", "I reject thy offer with disdain.", "Leave this place, or face the wrath of our kin."],
+		"hateYes": ["I agree for I have to.", "I would prefer not to be dependant on you.", "Leave this place ere I change my mind."],
+		
+		"afterPeace": "Though the storm hath passed, we remain vigilant, for peace is a fragile blossom in the wilds of Beleriand.",
+		"tradeRequest": "Let us barter in good faith, for the fruits of our labor may yet bring prosperity to both our peoples.",
 	
-	"declaringWar": "With a heavy heart, we must draw our swords against the encroaching darkness, for the peace of our realm is threatened by thy shadow.",
-	"attacked": "Lo! The foe hath breached our borders, and the cries of battle echo through the glades, stirring the hearts of our kin.",
-	"defeated": "Alas, we have suffered a grievous blow, yet our spirit remains unbroken, for the light of Elbereth shall guide us still.",
-	"introduction": "Hail, wanderer! Thou art welcomed to Doriath, a land of beauty and peril, where the stars shine bright and the shadows linger long.",
-	
-	"neutralHello": "Well met, traveler of distant lands.",
-	"neutralLetsHearIt": ["What tidings dost thou bring?", "Speak, for I am eager to listen.", "Let us share words beneath the boughs."],
-	"neutralNo": ["Nay, I cannot abide such folly.", "That is not the way of our kin.", "I must decline thy request."],
-	"neutralYes": ["Aye, I shall lend mine ear.", "Indeed, let us converse further.", "Thy words are welcome here."],
-
-	"hateHello": "Thou art not welcome in these sacred woods.",
-	"hateLetsHearIt": ["What dost thou seek in our realm?", "Speak quickly, for I tire of thy presence.", "Thy intentions are suspect."],
-	"hateNo": ["Nay, I shall not entertain such notions.", "Thou art a stranger here, and thy words fall on deaf ears.", "I reject thy offer with disdain."],
-	"hateYes": ["I shall not ally with thee.", "Thy kind brings naught but strife.", "Leave this place, or face the wrath of our kin."],
-	
-	"afterPeace": "Though the storm hath passed, we remain vigilant, for peace is a fragile blossom in the wilds of Beleriand.",
-	"tradeRequest": "Let us barter in good faith, for the fruits of our labor may yet bring prosperity to both our peoples.",
-
-	"outerColor": [16, 16, 16],
-	"innerColor": [255, 200, 200],
-	"unique": "MANIFEST_DESTINY",
-	"cities": ["Menegroth, the Thousand Caves"]
-}
-
+		"outerColor": [25, 200, 10],
+		"innerColor": [200, 180, 10],
+		"unique": "",
+		"cities": ["Menegroth", "Neldoreth Grove", "Forest of Region", "Nivrim Thicket"]
 	},
 
 	{
