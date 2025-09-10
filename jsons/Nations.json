@@ -1,39 +1,39 @@
 [
     {
-		"name": "Doriath",
-		"leaderName": "Thingol",
-		"adjective": ["elven"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "Thy kingdom shall be protected by the magic girdle of Melian, but is this going to help your nation survive the hard times coming for you?",
-		"startIntroPart2": "King Thingol, will you lead the elves of the forest to glory again?",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		{
+	"name": "Doriath",
+	"leaderName": "Thingol",
+	"adjective": ["elven"],
+	"startBias": ["Forest"],
+	"preferredVictoryType": "Scientific",
+	
+	"startIntroPart1": "Hail thee, King Thingol, mightiest of the rulers of Beleriand. Where the ancient trees whisper tales of yore, lies the realm of Doriath, shrouded in the mists of enchantment.",
+	"startIntroPart2": "Here, the Elves dwell in harmony with nature, their wisdom deep as the roots of the mighty oaks that stand sentinel over their lands.",
+	
+	"declaringWar": "With a heavy heart, we must draw our swords against the encroaching darkness, for the peace of our realm is threatened by thy shadow.",
+	"attacked": "Lo! The foe hath breached our borders, and the cries of battle echo through the glades, stirring the hearts of our kin.",
+	"defeated": "Alas, we have suffered a grievous blow, yet our spirit remains unbroken, for the light of Elbereth shall guide us still.",
+	"introduction": "Hail, wanderer! Thou art welcomed to Doriath, a land of beauty and peril, where the stars shine bright and the shadows linger long.",
+	
+	"neutralHello": "Well met, traveler of distant lands.",
+	"neutralLetsHearIt": ["What tidings dost thou bring?", "Speak, for I am eager to listen.", "Let us share words beneath the boughs."],
+	"neutralNo": ["Nay, I cannot abide such folly.", "That is not the way of our kin.", "I must decline thy request."],
+	"neutralYes": ["Aye, I shall lend mine ear.", "Indeed, let us converse further.", "Thy words are welcome here."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+	"hateHello": "Thou art not welcome in these sacred woods.",
+	"hateLetsHearIt": ["What dost thou seek in our realm?", "Speak quickly, for I tire of thy presence.", "Thy intentions are suspect."],
+	"hateNo": ["Nay, I shall not entertain such notions.", "Thou art a stranger here, and thy words fall on deaf ears.", "I reject thy offer with disdain."],
+	"hateYes": ["I shall not ally with thee.", "Thy kind brings naught but strife.", "Leave this place, or face the wrath of our kin."],
+	
+	"afterPeace": "Though the storm hath passed, we remain vigilant, for peace is a fragile blossom in the wilds of Beleriand.",
+	"tradeRequest": "Let us barter in good faith, for the fruits of our labor may yet bring prosperity to both our peoples.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+	"outerColor": [16, 16, 16],
+	"innerColor": [255, 200, 200],
+	"unique": "MANIFEST_DESTINY",
+	"cities": ["Menegroth, the Thousand Caves"]
+}
+
 	},
 
 	{
