@@ -2,7 +2,7 @@
 	{
 		"name": "Doriath",
 		"leaderName": "Thingol",
-		"adjective": ["elven"],
+		"adjective": ["Doriath"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Scientific",
 		
@@ -29,44 +29,76 @@
 	
 		"outerColor": [25, 200, 10],
 		"innerColor": [200, 180, 10],
-		"unique": "",
+		"uniqueText": "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", 
+		"unique": ["Good", starts with [Doriath] adopted, "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Menegroth", "Neldoreth Grove", "Forest of Region", "Nivrim Thicket"]
 	},
-
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Nargothrond",
+		"leaderName": "Finrod Felagund",
+		"adjective": ["Nargothrond"],
+		"startBias": ["River"], 
+		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "In the depths of the land where the waters run swift and the mountains loom high, there lies Nargothrond, a citadel of strength and wisdom.",
+		"startIntroPart2": "Here, the fair folk of the Gnomish kin dwell, led by the lord of light, Finrod, whose counsel is cherished far and wide.",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "By the spear and shield of Nargothrond, we shall not yield to the darkness that creeps upon our realm.",
+		"attacked": "Harken to the trumpets of war as foes dare tread the sacred ground of our ancient halls.",
+		"defeated": "Though the shadows may gather, fear not, for valiant hearts shall rise as the dawn doth break.",
+		"introduction": "Behold, I am Finrod Felagund, son of Finarfin. Our reign here is one not just of might, but of enduring light and song.",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "Hail, traveler of the lands beyond the rivers of silver.",
+		"neutralLetsHearIt": ["Speak thy will and let it be known.", "What tidings dost thou bring from afar?", "In truth and honor, speak."],
+		"neutralNo": ["Nay, such words bear little wisdom.", "Let not this strife linger in our hearts.", "Shun the path of discord."],
+		"neutralYes": ["Aye, we shall partake in the trade of fair goods.", "Thine proposal glimmers with promise.", "Let us bind our fates in friendship."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "What cruel jest brings thee to these hallowed shores?",
+		"hateLetsHearIt": ["Thy tongue bears ill tidings, speak not of treachery.", "Dare thee challenge the heart of Nargothrond?", "Come forth, if thou hast the courage."],
+		"hateNo": ["Nay, thy words are like poison to our kin.", "Do not tread where shadows linger.", "We shall not be swayed by malice."],
+		"hateYes": ["I may make an exception this time.", "For now I will not hinder this agreement.", "We may not be this patient next time."],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "A balm has mended the wounds of our hearts; may peace endure like the flowing river.",
+		"tradeRequest": "Bring forth thy wares, and let us weave a tapestry of abundance together.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [30, 0, 181],
+		"innerColor": [205, 230, 255],
+		"uniqueText": "Nargothrond cannot found new cities.", 
+		"unique": ["Good", starts with [Nargothrond] adopted, "[-80]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "[+20]% Great Person generation [in all cities]"],
+		"cities": ["Nargothrond"]
+	},
+	{
+		"name": "Gondolin",
+		"leaderName": "Turgon",
+		"adjective": [Gondolin],
+		"startBias": ["Hills"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "In the heights where the peaks kiss the skies, there stands Gondolin, a realm cloaked in splendor and veiled from the shadowed gaze.",
+		"startIntroPart2": "Here dwelleth Turgon, father of the folk, whose might and wisdom weave the fabric of our fates.",
+		
+		"declaringWar": "With the steel of our kin and the strength of mountains, we answer the call to arms against the encroaching dark.",
+		"attacked": "Lo, the drums of war echo through the vales, and foes breach the sanctity of our hidden home.",
+		"defeated": "Even if the tide of battle turns against us, our spirit shall not be quenched, but burn brighter in defiance.",
+		"introduction": "Stand forth and know me, Turgon of Gondolin, keeper of the light and protector of our cherished lands.",
+		
+		"neutralHello": "Hail, wayfarer of distant realms.",
+		"neutralLetsHearIt": ["What brings thou to the gates of Gondolin?", "Speak thy mind freely, traveler.", "Let us hear what tidings thou bringest."],
+		"neutralNo": ["Nay, our paths do not entwine upon this matter.", "Take heed, for discord festers.", "Let not this seed of strife take root."],
+		"neutralYes": ["Aye, let us forge a bond of fellowship.", "Thy words ring with promise and hope.", "Together, we shall create a legacy."],
+
+		"hateHello": "What ill wind blows thee into our midst?",
+		"hateLetsHearIt": ["Thou treadest upon hallowed ground; speak thy purpose.", "What treachery brings thee to our gates?", "Beware, for shadows linger in thine eyes."],
+		"hateNo": ["Nay, we shall not yield to thy whims!", "This union is a foul jest upon our honor.", "Retreat, for we desire not thy friendship."],
+		"hateYes": ["If war is thy choice, we shall meet thee upon the field.", "Thy malice shall be met with valor and steel.", "Let it be known: we shall fight, if thou engage."],
+		
+		"afterPeace": "As the storm doth abate, may our hearts find solace and strength anew in the dawn of friendship.",
+		"tradeRequest": "Bring forth thy goods, and let us share the bounty of our realms with grace and mutual respect.",
+
+		"outerColor": [206, 157, 38],
+		"innerColor": [255, 255, 255],
+		"uniqueText": "Gondolin cannot found new cities.", 
+		"unique": ["Good", starts with [Gondolin] adopted, "[-80]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "[+20]% Great Person generation [in all cities]"],
+		"cities": ["Gondolin"]
 	}
 ]
