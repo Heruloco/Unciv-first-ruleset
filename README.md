@@ -1,3 +1,1 @@
-Minimal base ruleset for Unciv, so people can start somewhere and gradually expand
-
-Based on https://github.com/AdelleStuuu/Adelle-Corp
+An unciv mod about the end of the first age of Tolkiens Middle-Earth, featuring the wars of Beleriand.
