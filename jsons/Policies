@@ -273,4 +273,53 @@
 			}
 		]
 	},
+{
+		"name": "Doriath",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Doriath]>",],
+		"policies": [
+			{
+				"name": "Elven Swiftness",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [All units Gain +1 Movement for 5 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Swift] promotion","[All] units gain the [Swift] promotion <upon constructing [Elven Swiftness Power]>", "May buy [Elven Swiftness Power] buildings for [0] [Culture] [in all cities] <when below [1] [Elven Swiftness Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Elven Cloaks",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [Units are invisible in Jungles and Forests for 8 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Elven Cloak] promotion","[All] units gain the [Elven Cloak] promotion <upon constructing [Elven Cloaks Power]>","May buy [Elven Cloaks Power] buildings for [0] [Culture] [in all cities] <when below [1] [Elven Cloaks Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Terrain Mastery",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Units ignore terrain costs]","All newly-trained [All] units [in all cities] receive the [Native Terrain] promotion","[All] units gain the [Native Terrain] promotion"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Doriath Training",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Archery Units gain additional attack for 4 turns]","Comment [Cooldown: 20 turns]","All newly-trained [Ranged] units [in all cities] receive the [Sharpshooter] promotion","[Ranged] units gain the [Sharpshooter] promotion <upon constructing [Mirkwood Training Power]>","May buy [Mirkwood Training Power] buildings for [0] [Culture] [in all cities] <when below [1] [Mirkwood Training Cooldown]>"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Rivercraft Artistry",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Production] from every [River]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Sindar Elves Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Gondolin",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Gondor]>",],
+		"policies": [
+			
+		]
+	},
 ]
