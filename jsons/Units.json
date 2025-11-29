@@ -7,25 +7,25 @@
 		"strength": 0,
 		"rangedStrength": 0,
 		"range": 0,
-		"uniques": ["Unbuildable","Cannot attack", "[+1000] Sight","[This Unit] takes [100] damage <upon ending a turn in a [City center] tile> <without [Elrond's Foresight Activate]>","Can see over obstacles"],
+		"uniques": ["Unbuildable","Cannot attack", "[+1000] Sight","[This Unit] takes [100] damage <upon ending a turn in a [City center] tile> <without [Melian's Vision Activate]>","Can see over obstacles"],
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Eye of Sauron",
+		"name": "Knowledge of Morgoth",
 		"unitType": "Special Scout",
 		"movement": 5,
 		"strength": 1,
 		"range": 0,
-		"uniques": ["Unbuildable","[-1] Sight","[+100000]% Strength <when defending>","Cannot attack", "Can see invisible [All] units","[This Unit] takes [100] damage <upon ending a turn in a [All] tile> <without [Eye of Sauron Activate]>","May travel on Water tiles without embarking","May enter foreign tiles without open borders","Ignores Zone of Control","Unable to pillage tiles","All tiles cost 1 movement","Can pass through impassable tiles","[+10]% Strength bonus for [Military] units within [1] tiles","Can see over obstacles"],
+		"uniques": ["Unbuildable","[-1] Sight","[+100000]% Strength <when defending>","Cannot attack", "Can see invisible [All] units","[This Unit] takes [100] damage <upon ending a turn in a [All] tile> <without [Knowledge of Morgoth Activate]>","May travel on Water tiles without embarking","May enter foreign tiles without open borders","Ignores Zone of Control","Unable to pillage tiles","All tiles cost 1 movement","Can pass through impassable tiles","[+10]% Strength bonus for [Military] units within [1] tiles","Can see over obstacles"],
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Crebains of Dunland",
+		"name": "Eagles of Cristhorn",
 		"unitType": "Special Scout",
 		"movement": 3,
 		"strength": 10,
 		"range": 0,
-		"uniques": ["Unbuildable","Cannot attack", "Can see invisible [All] units","[This Unit] takes [100] damage <upon ending a turn in a [All] tile> <without [Crebains Activate]>","All tiles cost 1 movement","May travel on Water tiles without embarking","May enter foreign tiles without open borders","Unable to pillage tiles","[-10]% Strength for enemy [All] units in adjacent [All] tiles","Can see over obstacles"],
+		"uniques": ["Unbuildable","Cannot attack", "Can see invisible [All] units","[This Unit] takes [100] damage <upon ending a turn in a [All] tile> <without [Eagles Activate]>","All tiles cost 1 movement","May travel on Water tiles without embarking","May enter foreign tiles without open borders","Unable to pillage tiles","[-10]% Strength for enemy [All] units in adjacent [All] tiles","Can see over obstacles"],
 		"attackSound": "torpedo"
 	},
 	
@@ -39,15 +39,7 @@
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Unbuildable","Can upgrade to [Warrior]","Can upgrade to [Archer]"],
 		"attackSound": "nonmetalhit",
 	},
-	{
-		"name": "Barrow Wight",
-		"unitType": "Flying",
-		"movement": 2,
-		"strength": 10,
-		"cost": 5,
-		"uniques" : ["[This Unit] takes [5] damage <upon ending a turn in a [Foreign Land] tile>","Can only heal by pillaging","Unable to pillage tiles","Heals [50] damage if it kills a unit","Unbuildable"],
-		"attackSound": "nonmetalhit",
-	},
+	
 	// Unbuildable uniques
 	{
 		"name": "Lightning Bolt",
@@ -119,27 +111,22 @@
 
 	//Available for all good Nations
 	{
-		"name": "Gandalf, the Grey",
-		"unitType": "Wizard",
+		"name": "Turin Turambar",
+		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 20,
 		"promotions": ["Hero"],
-		"upgradesTo": "Gandalf, the White",
-		"uniques": ["Consumes [1] [Special]", "Unbuildable", "[+50]% Strength <vs [Balrog] units> <with [50]% chance>","Free [Gandalf, the White] appears <upon being defeated>"],
-
+		"uniques": ["Unbuildable", "[+50]% Strength <vs [Dragon] units> <with [50]% chance>"],
 	},
 	{
-		"name": "Gandalf, the White",
-		"unitType": "Wizard",
+		"name": "Beren Ermabwed",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 18,
-		"rangedStrength": 14,
-		"range": 1,
 		"cost": 120,
 		"promotions": ["Hero"],
 		"requiredTech": "Stirrup",
-		"uniques": ["Never appears as a Barbarian unit","Consumes [1] [Special]", "Only available <with [Special]>", 
-			"[+50]% Strength <vs [Balrog] units>", "[+50]% Strength <vs [Nazgul] units>", "Ignores Zone of Control", "Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit", "Ignores Zone of Control", "Unbuildable"],
 	},
 	//Gondor or Arnor
 	{
