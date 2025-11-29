@@ -100,5 +100,39 @@
 		"uniqueText": "Gondolin cannot found new cities.", 
 		"unique": ["Good", starts with [Gondolin] adopted, "[-80]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "[+20]% Great Person generation [in all cities]"],
 		"cities": ["Gondolin"]
-	}
+	},
+	{
+		"name": "Angband",
+		"leaderName": "Morgoth",
+		"adjective": ["evil"],
+		"startBias": ["Hills"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "After stealing the Silmaril, wich contain the light of the two trees, from Valinor, Morgoth has fled to the Outer Lands and built up Thangordrim again.",
+		"startIntroPart2": "There lies the desolate throne of Morgoth, lord of dread, from where he brings war and wrath to the world.",
+	
+		"declaringWar": "Thus do I rise against the realms of light, prepare thine hearts for turmoil, for I summon forth my legions.",
+		"attacked": "Thou dared to strike against the darkness; now face the might of shadows unbound!",
+		"defeated": "So hath the light prevailed, but beware, for the dark shall rise again.",
+		"introduction": "Hearken ye, for I am Morgoth, harbinger of despair and master of the abyss.",
+	
+		"neutralHello": "Mayhap thou seek'st counsel in the darkness?",
+		"neutralLetsHearIt": ["Speak thy thoughts, mortal.", "What tidings dost thou bear?", "In shadowed silence, I await."],
+		"neutralNo": ["Nay, thy words ring hollow.", "What folly drives thee to deny?", "Speak not of that which is lost."],
+		"neutralYes": ["Aye, wisdom oft hides in the deep.", "Thy words are welcome as the night.", "Let us weave a tale as dark as fate."],
+	
+		"hateHello": "Foolhardy souls, I sense thy cowardice!",
+		"hateLetsHearIt": ["Thy light brings naught but shadows.", "I shall feast upon thy fear.", "Bow before the might of Morgoth!"],
+		"hateNo": ["Thou art but a fleeting shadow.", "Speak not, lest I unleash my wrath!", "Dare not defy the darkness!"],
+		"hateYes": ["Embrace the chaos of the night.", "Bow to no one, for I am the abyss."],
+	
+		"afterPeace": "Peace is but a fleeting dream; darkness shall rekindle once more.",
+		"tradeRequest": "Offer thine tributes, or face the wrath of the shadowed realm.",
+	
+		"outerColor": [0, 0, 0],
+		"innerColor": [160, 220, 225],
+		"unique text": "Angband cannot found new cities.",
+		"unique": ["Evil", starts with [Gondolin] adopted, "[-80]% Culture cost of natural border growth [in all cities]", "[-25]% Gold cost of acquiring tiles [in all cities]", "[+20]% Great Person generation [in all cities]"],
+		"cities": ["Thangorodrim"]
+}
 ]
