@@ -1,0 +1,276 @@
+[
+    {
+		"name": "Evil",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Evil]>","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Vicious Training",
+				"uniques": ["[+25]% XP gained from combat","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Veteran Forces",
+				"uniques": ["[+25]% XP gained from combat","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Vicious Training"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Nefarious Elite",
+				"uniques": ["[+50]% XP gained from combat","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Veteran Forces"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Dark Forges",
+				"uniques": ["[+1 Production] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Malevolent Workshops",
+				"uniques": ["[+2 Production] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Dark Forges"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Sinister Industry",
+				"uniques": ["[+3 Production] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Malevolent Workshops"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Oppression Tactics",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Ruthless Authority",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Oppression Tactics"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Tyrannical Dominion",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Ruthless Authority"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Forbidden Lore",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Dark Knowledge",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Forbidden Lore"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Morgoth's Gift",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Dark Knowledge"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Evil Complete",
+				"uniques": ["Comment [Dark Lord]"]
+			}
+		]
+  },
+	
+	{
+		"name": "Neutral",
+		"era": "Second Age",
+		"uniques": ["Comment [Available to any Civilization]","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Healing",
+				"uniques": ["Comment [All units instantly heal 25 HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal 25] promotion <upon constructing [Healing Power]> <before adopting [Improved Healing]> <before adopting [Restoration]>","May buy [Healing Power] buildings for [0] [Culture] [in all cities] <when below [1] [Healing Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Improved Healing"
+				"requires": ["Healing"],
+				"uniques": ["Comment [All units instantly heal 50 HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal 50] promotion <upon constructing [Healing Power]> <before adopting [Restoration]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Restoration",
+				"requires": ["Improved Healing"],
+				"uniques": ["Comment [All units instantly heal all HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal All] promotion <upon constructing [Healing Power]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Rallying Call",
+				"uniques": ["Comment [All units gain 15% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+15]% Strength <when above [0] [Rallying Call Activate]> <before adopting [Improved Rallying Call]> <before adopting [Battle Cry]>", "May buy [Rallying Call Power] buildings for [0] [Culture] [in all cities] <when below [1] [Rallying Call Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Improved Rallying Call",
+				"requires": ["Rallying Call"],
+				"uniques": ["Comment [All units gain 25% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+25]% Strength <for [3] turns> <when above [0] [Rallying Call Activate]> <before adopting [Battle Cry]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 3 
+			},
+			{
+				"name": "Battle Cry",
+				"requires": ["Improved Rallying Call"],
+				"uniques": ["Comment [All units gain 35% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+35]% Strength <when above [0] [Rallying Call Activate]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Battle Towers",
+				"uniques": ["Comment [Summons a Battle Tower improvement dealing 10 damage to neraby enemy units, it also provides 25% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [Improved Battle Towers]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Improved Battle Towers",
+				"requires": ["Battle Towers"],
+				"uniques": ["Comment [Summons an Improved Battle Tower improvement dealing 20 damage to neraby enemy units, it also provides 50% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Improved Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [War Towers]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "War Towers",
+				"requires": ["Improved Battle Towers"],
+				"uniques": ["Comment [Summons a War Tower improvement dealing 30 damage to neraby enemy units, it also provides 75% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [War Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Summon Reinforcements",
+				"uniques": ["Comment [Summons an Infantry unit of Current Era]","Comment [Cooldown: 20 turns]","May buy [Summon Reinforcements Power] buildings for [0] [Culture] [in all cities] <when below [1] [Summon Reinforcements Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Advanced Summon Reinforcements",
+				"requires": ["Summon Reinforcements"],
+				"uniques": ["Comment [Summons Infantry and Archery units of Current Era]","Comment [Cooldown: 20 turns]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Excellent Summon Reinforcements",
+				"requires": ["Advanced Summon Reinforcements"],
+				"uniques": ["Comment [Summons Infantry, Archery and Mounted units of Current Era]","Comment [Cooldown: 20 turns]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Neutral Complete",
+				"uniques": ["Comment [Lord]"]
+			}
+		]
+	},
+	{
+		"name": "Good",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Good]>","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Stand As One",
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "United We Stand",
+				"requires": ["Stand As One"],
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Fellowship's Might",
+				"requires": ["United We Stand"],
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Fertile Fields",
+				"uniques": ["[+1 Food] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Grand Harvest",
+				"requires": ["Fertile Fields"],
+				"uniques": ["[+2 Food] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Prosperous Growth",
+				"requires": ["Grand Harvest"],
+				"uniques": ["[+3 Food] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Blissful Harmony",
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 1 Power]"]
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Free People",
+				"requires": ["Blissful Harmony"],
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"]
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Gift of the Valar",
+				"requires": ["Free People"],
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"]
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Wealthy Treasury",
+				"requires": ["Mercantilism"],
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Economic Pinnacle",
+				"requires": ["Wealthy Treasury"],
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Good Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+]
